@@ -20,7 +20,7 @@ curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | 
 ***Clone the project:***
 
 ```
-git clone git@github.com:tony-dinh/sh-settings.git;
+git clone git@github.com:tony-dinh/sh-settings.git
 cd sh-settings
 ```
 
