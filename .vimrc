@@ -7,17 +7,18 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'git@github.com:scrooloose/nerdtree.git'
 Plugin 'easymotion/vim-easymotion'
-Plugin 'git@github.com:tpope/vim-surround.git'
-Plugin 'git@github.com:ctrlpvim/ctrlp.vim.git'
-Plugin 'git@github.com:rking/ag.vim.git'
 Plugin 'git@github.com:Raimondi/delimitMate.git'
 Plugin 'git@github.com:Valloric/YouCompleteMe.git'
-Plugin 'marijnh/tern_for_vim'
-Plugin 'itchyny/lightline.vim'
-Plugin 'git@github.com:tomtom/tcomment_vim.git'
+Plugin 'git@github.com:ctrlpvim/ctrlp.vim.git'
 Plugin 'git@github.com:jnurmine/Zenburn.git'
+Plugin 'git@github.com:rking/ag.vim.git'
+Plugin 'git@github.com:scrooloose/nerdtree.git'
+Plugin 'git@github.com:tomtom/tcomment_vim.git'
+Plugin 'git@github.com:tpope/vim-commentary.git'
+Plugin 'git@github.com:tpope/vim-surround.git'
+Plugin 'itchyny/lightline.vim'
+Plugin 'marijnh/tern_for_vim'
 
 call vundle#end()            " required
 
