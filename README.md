@@ -17,20 +17,20 @@ curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | 
 
 ## Configuration
 
-### Clone the project
+***Clone the project:***
 
 ```
 git clone git@github.com:tony-dinh/sh-settings.git;
 cd sh-settings
 ```
 
-### Copy patched font into font folder `~/Library/Fonts`
+***Copy patched font into font folder `~/Library/Fonts`***
 
 ```
 cp Droid\ Sans\ Mono\ for\ Powerline  ~/Library/Fonts
 ```
 
-### Copy `.zshrc`, `env.sh`, && `.vimrc` into the home directory
+***Copy `.zshrc`, `env.sh`, && `.vimrc` into the home directory***
 
 ```
 cp zsh_profile/.zshrc ~/
@@ -38,11 +38,11 @@ cp zsh_profile/env.sh ~/
 cp .vimrc ~/
 ```
 
-### Copy the the zsh-theme into into the appropriate directory
+***Copy the the zsh-theme into into the appropriate directory***
 ```
 cp agnoster(editted).zsh-theme ~/.oh-my-zsh/themes/
 ```
 
-### Import `Basic.terminal`
+***Import `Basic.terminal`***
 
 Shell > Import...
