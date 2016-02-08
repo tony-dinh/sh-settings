@@ -10,23 +10,13 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-" The following are examples of different formats supported.
-" Keep Plugin commands between vundle#begin/end.
-" plugin on GitHub repo
-"Plugin 'ctr'
-" plugin from http://vim-scripts.org/vim/scripts.html
-"Plugin 'L9'
-" Git plugin not hosted on GitHub
-"Plugin 'git://git.wincent.com/command-t.git'
-" git repos on your local machine (i.e. when working on your own plugin)
-"Plugin 'file:///home/gmarik/path/to/plugin'
-" The sparkup vim script is in a subdirectory of this repo called vim.
-" Pass the path to set the runtimepath properly.
-"Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-" Avoid a name conflict with L9
-"Plugin 'user/L9', {'name': 'newL9'}
-
+"***************** PLUGINS HERE *********************
 Plugin 'git@github.com:Lokaltog/vim-powerline.git'
+Plugin 'git@github.com:scrooloose/nerdtree.git'
+Plugin 'git@github.com:altercation/vim-colors-solarized.git'
+Plugin 'easymotion/vim-easymotion'
+Plugin 'git@github.com:tpope/vim-surround.git'
+Plugin 'git@github.com:ctrlpvim/ctrlp.vim.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -45,7 +35,31 @@ filetype plugin indent on    " required
 
 " Power-line configuration
 let g:Powerline_symbols = 'fancy'
+let g:ctrlp_regexp = 1
 set nocompatible   " Disable vi-compatibility
 set laststatus=2   " Always show the statusline
 set encoding=utf-8 " Necessary to show Unicode glyphs
 set t_Co=256 " Explicitly tell Vim that the terminal supports 256 colors
+
+syntax enable
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set incsearch
+set showcmd     " display commands on bottom right
+set number      " display line number
+
+" option name default optional ------------------------------------------------ 
+let g:solarized_termcolors= 16 
+let g:solarized_termtrans = 0
+let g:solarized_degrade = 0
+let g:solarized_bold = 1 
+let g:solarized_underline = 0 
+let g:solarized_italic = 0 
+let g:solarized_contrast = "normal" 
+let g:solarized_visibility= "normal"
+" ------------------------------------------------
+set background=light
+colorscheme solarized
+
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip 
