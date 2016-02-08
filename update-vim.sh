@@ -1,2 +1,2 @@
 #!/bin/bash
-cp .vimrc ~/
+cp ~/Documents/dev/sh-settings/.vimrc ~/
