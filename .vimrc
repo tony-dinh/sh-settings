@@ -20,7 +20,7 @@ Plugin 'git@github.com:tpope/vim-surround.git'
 Plugin 'itchyny/lightline.vim'
 Plugin 'marijnh/tern_for_vim'
 
-call vundle#end()            " required
+call vundle#end()   " required
 
 " Brief help
 " :PluginList       - lists configured plugins
@@ -47,7 +47,8 @@ set backspace=indent,eol,start
 noremap l h
 noremap ; l
 noremap h ;
-
+noremap <Leader>l <Home>
+noremap <Leader>; <End>
 " NERDTree ===========================================================
 map <Leader>t :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
