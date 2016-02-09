@@ -11,17 +11,18 @@
     function mkcd() { mkdir -p "$@" && cd "$_"; }
 
     # Aliases
+    
     alias ..='cd ..'
     alias astro='cd ~/Documents/dev/astro'
     alias dev='cd ~/Documents/dev'
     alias envconfig='vim ~/Documents/dev/sh-settings/zsh_profile/env.sh'
+    alias envupdate='bash ~/Documents/dev/sh-settings/scripts/update-zsh.sh'
     alias ls='ls -G'
     alias vimconfig='vim ~/Documents/dev/sh-settings/.vimrc'
+    alias vimupdate='bash ~/Documents/dev/sh-settings/scripts/update-vim.sh'
     alias with_aws='env AWS_ACCESS_KEY_ID=$(security find-generic-password -a AWS_KEY -w) AWS_SECRET_ACCESS_KEY=$(security find-generic-password -a AWS_SECRET_KEY -w) AWS_KEY=$(security find-generic-password -a AWS_KEY -w) AWS_SECRET=$(security find-generic-password -a AWS_SECRET_KEY -w) '
     alias zshconfig='vim ~/Documents/dev/sh-settings/zsh_profile/.zshrc'
-    alias vimupdate='bash ~/Documents/dev/sh-settings/update-vim.sh'
-    alias envupdate='bash ~/Documents/dev/sh-settings/update-zsh.sh'
-    
+   
     export NVM_DIR="/Users/tonydinh/.nvm"
     [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
