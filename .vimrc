@@ -42,7 +42,7 @@ set showcmd         " Display commands on bottom-right corner
 set showmatch       " Highlights matching parenthesis-like characters
 set wildmenu
 set backspace=indent,eol,start
-
+set mouse=a
 " Re-mapping hjkl
 noremap l h
 noremap ; l
