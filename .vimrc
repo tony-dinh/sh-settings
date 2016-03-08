@@ -43,12 +43,9 @@ set showmatch       " Highlights matching parenthesis-like characters
 set wildmenu
 set backspace=indent,eol,start
 set mouse=a
-" Re-mapping hjkl
-noremap l h
-noremap ; l
-noremap h ;
-noremap <Leader>l <Home>
-noremap <Leader>; <End>
+
+noremap <Leader>h <Home>
+noremap <Leader>l <End>
 " NERDTree ===========================================================
 map <Leader>t :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
