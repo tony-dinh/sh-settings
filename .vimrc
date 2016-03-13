@@ -6,7 +6,7 @@ filetype plugin indent on    " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-Plugin 'VundleVim/Vundle.vim'
+Plugin 'gmarik/Vundle.vim'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'git@github.com:Raimondi/delimitMate.git'
 Plugin 'git@github.com:Valloric/YouCompleteMe.git'
