@@ -51,9 +51,25 @@ Basic.terminal
 
 Shell > Use Settings as Default
 ```
+
+*** Install Latest Vim ***
+
+```
+brew install vim
+# Hide the system vim, so that the latest one is used:
+sudo mv /usr/bin/vim /usr/bin/vim72
+```
+
 ***Install Vundle***
 Install vim's plugin manager and plugins:
 ```
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
+```
+
+*** Install Cmake & Complete Installation for YouCompleteMe ***
+```
+brew install cmake
+cd ~/.vim/bundle/YouCompleteMe
+./install.sh
 ```
