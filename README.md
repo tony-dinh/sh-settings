@@ -52,7 +52,7 @@ Basic.terminal
 Shell > Use Settings as Default
 ```
 
-*** Install Latest Vim ***
+***Install Latest Vim***
 
 ```
 brew install vim
@@ -67,7 +67,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 ```
 
-*** Install Cmake & Complete Installation for YouCompleteMe ***
+***Install Cmake & Complete Installation for YouCompleteMe***
 ```
 brew install cmake
 cd ~/.vim/bundle/YouCompleteMe
