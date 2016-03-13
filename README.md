@@ -27,7 +27,7 @@ cd sh-settings
 ***Copy patched font into font folder `~/Library/Fonts`***
 
 ```
-cp Droid\ Sans\ Mono\ for\ Powerline  ~/Library/Fonts
+cp Droid\ Sans\ Mono\ for\ Powerlincp Droid\ Sans\ Mono\ for\ Powerline-Powerline.otf ~/Library/Fonts
 ```
 
 ***Copy `.zshrc`, `env.sh`, && `.vimrc` into the home directory***
@@ -44,5 +44,16 @@ cp agnoster(editted).zsh-theme ~/.oh-my-zsh/themes/
 ```
 
 ***Import `Basic.terminal`***
-
+Import terminal settings and save as default setting:
+```
 Shell > Import...
+Basic.terminal
+
+Shell > Use Settings as Default
+```
+***Install Vundle***
+Install vim's plugin manager and plugins:
+```
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall
+```
