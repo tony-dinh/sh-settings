@@ -10,8 +10,12 @@
 	<integer>1</integer>
 	<key>Default Bookmark Guid</key>
 	<string>3C131ED1-8AB0-4335-B334-89D450088529</string>
+	<key>DimOnlyText</key>
+	<true/>
 	<key>HideActivityIndicator</key>
 	<false/>
+	<key>HideScrollbar</key>
+	<true/>
 	<key>HideTabNumber</key>
 	<false/>
 	<key>JobName</key>
@@ -45,7 +49,7 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
-		<string>322</string>
+		<string>307</string>
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
@@ -57,15 +61,15 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSColorPanel</key>
-	<string>268 306 228 303 0 0 1280 777 </string>
+	<string>316 208 228 303 0 0 1280 777 </string>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>621 285 445 103 0 0 1280 777 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>16 257 796 473 0 0 1280 777 </string>
+	<string>289 213 796 473 0 0 1280 777 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>80 193 592 584 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>640 391 570 377 0 0 1280 777 </string>
+	<string>103 329 585 377 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>684 306 570 452 0 0 1280 777 </string>
 	<key>New Bookmarks</key>
@@ -144,11 +148,11 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.5</real>
+				<real>0.49354352139631213</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.5</real>
+				<real>0.45130865391495462</real>
 				<key>Red Component</key>
 				<real>0.5</real>
 			</dict>
@@ -851,12 +855,16 @@
 	<false/>
 	<key>ShowBookmarkName</key>
 	<false/>
+	<key>SplitPaneDimmingAmount</key>
+	<real>0.4658303285256411</real>
 	<key>TabStyle</key>
 	<integer>1</integer>
 	<key>TabViewType</key>
 	<integer>0</integer>
 	<key>UKCrashReporterLastCrashReportDate</key>
 	<real>1476745472</real>
+	<key>UseBorder</key>
+	<false/>
 	<key>WindowNumber</key>
 	<false/>
 	<key>WordCharacters</key>
